@@ -129,7 +129,7 @@
 
     /* Note: Design for a width of 320px */
 
-/*    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 767px) {
         .container { width: 300px; }
         .container .columns,
         .container .column { margin: 0; }
@@ -154,8 +154,8 @@
         .container .one-third.column,
         .container .two-thirds.column  { width: 300px; }
 
-        /* Offsets */
-        /*.container .offset-by-one,
+         Offsets 
+        .container .offset-by-one,
         .container .offset-by-two,
         .container .offset-by-three,
         .container .offset-by-four,
@@ -171,15 +171,15 @@
         .container .offset-by-fourteen,
         .container .offset-by-fifteen { padding-left: 0; }
 
-    }*/
+    }
 
 
 /* #Mobile (Landscape)
-================================================== */
+================================================== 
 
     /* Note: Design for a width of 480px */
 
-    /*@media only screen and (min-width: 480px) and (max-width: 767px) {
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
         .container { width: 420px; }
         .container .columns,
         .container .column { margin: 0; }
@@ -203,7 +203,7 @@
         .container .sixteen.columns,
         .container .one-third.column,
         .container .two-thirds.column { width: 420px; }
-    }*/
+    }
 
 
 /* #Clearing
