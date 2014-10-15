@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Muli);
 
+
 @-webkit-keyframes wiggle {
 	0% {-webkit-transform:rotate(4deg);}
 	50% {-webkit-transform:rotate(-4deg);}
@@ -55,9 +56,7 @@ header nav ul a {
 	text-decoration: none;
 	color: inherit;
 	padding-right: 10px;
-	padding-left: 5px;
-	
-	
+	padding-left: 5px;	
 }
 
 header nav ul a.wiggler:hover {
@@ -77,6 +76,16 @@ div.content {
 
 div.content.row {
 	margin-bottom: 50px;
+}
+
+div.content a {
+	text-decoration: none;
+	color:#fff;
+}
+
+div.content a:hover {
+	color: #ecf0f1;
+	transition:0.2s ease-out;
 }
 
 div.content .colate {
@@ -101,39 +110,19 @@ div.content .talk {
 	position: relative;
 }
 
-div.content .talk a {
-	background: url(../images/mail.png) no-repeat 0 0 ;
-	background-size: 30px;
-	background-position: right;
-	padding-right: 35px;
-	
+div.content .talk i {
+	font-size:20px;
+
+
 }
-
-div.content .talk a:hover {
-	background: url(../images/mail2.png) no-repeat 0 0 ;
-	background-size: 30px;
-	background-position: right;
-	padding-right: 35px;
-	
+div.content .talk i:hover {
+	color:#ecf0f1;
+	transition:0.2s ease-out;
 }
-
-
-
-
 div.content .tile {
-
 	line-height: 200px;
 }
-div.content .tile a {
-	color: #fff;
-	text-decoration: none;
 
-}
-
-div.content .tile a:hover {
-	color:#ecf0f1;
-	transition: 0.2s ease-out;
-}
 
 
 
