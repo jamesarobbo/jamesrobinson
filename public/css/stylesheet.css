@@ -26,6 +26,10 @@ header {
 	margin-top: 50px;
 }
 
+header.row {
+	margin-bottom: 0;
+}
+
 header h2 {
 	font-size: 18px;
 }
@@ -43,9 +47,9 @@ header img {
 	width:200px;
 }
 
-header nav, header h2, header p {
+header nav, header h2 {
 	margin-top: 25px;
-	line-height: 1.4;
+	
 }
 
 header nav ul {
@@ -67,6 +71,8 @@ header nav ul a.wiggler:hover {
 
 header p {
 	text-align: justify;
+	margin-top: 50px;
+	line-height: 1.4;
 }
 
 div.content {
