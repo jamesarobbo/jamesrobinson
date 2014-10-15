@@ -25,6 +25,19 @@ header {
 	margin-top: 50px;
 }
 
+header h2 {
+	font-size: 18px;
+}
+
+header p a {
+	color:#33ce75;
+}
+
+header p a:hover {
+	text-decoration: none;
+	color: #27ae60;	
+}
+
 header img {
 	width:200px;
 }
