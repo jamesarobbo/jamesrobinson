@@ -17,7 +17,6 @@ html, body {
 	font-family: Muli, Arial, sans-serif;
 	text-rendering: optimizeLegibility;
   	-webkit-font-smoothing: antialiased;
-
 }
 
 header {
@@ -134,6 +133,8 @@ div.content .tile {
 	header nav ul.linkedin {
 		display: none;
 	}
+
+	
 }
 
 
