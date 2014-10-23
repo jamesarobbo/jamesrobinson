@@ -109,6 +109,11 @@ div.content .hair {
 	margin-top: 50px;	
 }
 
+div.content .rental {
+	background-color: #E66212;
+	margin-top: 50px;	
+}
+
 div.content .talk {
 	background-color: #8e44ad;
 	margin-top: 50px;
@@ -117,8 +122,6 @@ div.content .talk {
 
 div.content .talk i {
 	font-size:20px;
-
-
 }
 div.content .talk i:hover {
 	color:#ecf0f1;
